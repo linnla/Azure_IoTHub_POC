@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureIoTHub.CreateDevice", "AzureIoTHub.CreateDevice\AzureIoTHub.CreateDevice.csproj", "{3F4CBE94-A088-4ABD-B178-06BF1AFB2A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureIoTHub.DeviceToCloud", "AzureIoTHub.DeviceToCloud\AzureIoTHub.DeviceToCloud.csproj", "{AF5605D7-447A-47A1-A4C3-EEBD7D8BC06B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureIoTHub.SimulatedDevice", "AzureIoTHub.SimulatedDevice\AzureIoTHub.SimulatedDevice.csproj", "{975D660C-4321-43B9-8D77-5830FE92BC1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F4CBE94-A088-4ABD-B178-06BF1AFB2A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4CBE94-A088-4ABD-B178-06BF1AFB2A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4CBE94-A088-4ABD-B178-06BF1AFB2A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4CBE94-A088-4ABD-B178-06BF1AFB2A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF5605D7-447A-47A1-A4C3-EEBD7D8BC06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF5605D7-447A-47A1-A4C3-EEBD7D8BC06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF5605D7-447A-47A1-A4C3-EEBD7D8BC06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF5605D7-447A-47A1-A4C3-EEBD7D8BC06B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{975D660C-4321-43B9-8D77-5830FE92BC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{975D660C-4321-43B9-8D77-5830FE92BC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{975D660C-4321-43B9-8D77-5830FE92BC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{975D660C-4321-43B9-8D77-5830FE92BC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
